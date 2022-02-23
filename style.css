@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.social{
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bannerLogo{
+    width: 250px;
+    margin-left: 0px;
+    margin-right: 30px;
+    line-height: 1;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
