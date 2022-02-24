@@ -1,1 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 
+.header{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.headerImage{
+    min-width: 1180px;
+    margin: 0 auto;
+}
