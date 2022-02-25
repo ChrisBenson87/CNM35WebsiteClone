@@ -1,5 +1,22 @@
+html, header, body, div, h1, h2, h3, h4, h5, h6, a, nav{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header{
+    background: #fff;
+    color: #fff;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 h2{
@@ -20,6 +37,27 @@ h2{
     height: 320px;
 }
 
+.titleContentBG::before{
+    height: 2px;
+    top: 5px;
+    background: -moz-linear-gradient(left, #784f0e 0%, #d4ad45 50%, #784f0e 100%);
+}
+
+.titleContentBG::after{
+    height: 1px;
+    top: 7px;
+    background: -moz-linear-gradient(left, #472c07 0%, #826224 50%, #472c07 100%);
+}
+
+.titleContentBG::before,
+.titleContentBG:after{
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 100%;
+}
+
 .titleContentBG{
     position: relative;
     top: 196px;
@@ -28,6 +66,8 @@ h2{
     background-position: center center;
     background-repeat: repeat-x;
     min-width: 1180px;
+    max-height: 127px;
+    margin: 0 auto;
 }
 
 .titleContent{
@@ -39,9 +79,14 @@ h2{
     padding: 24px 0;
 }
 
+.info{
+    margin: 0 0 100px 0;
+}
+
 .headerNav{
     background-color: #000;
     min-width: 1180px;
+    display: block;
 }
 
 .navBG{
@@ -67,14 +112,16 @@ h2{
     background-repeat: no-repeat;
     background-position: center top;
     min-width: 1180px;
+    min-height: 1280px;
 }
 
 .contents{
     background-image: url("/WebsiteClone/images/bg_2.png");
     background-repeat: repeat-y;
     background-position: center center;
-    padding: 40px 0 40px 0;
+    padding: 40px 0 40px 40px;
     width: 1140px;
+    min-height: 1280px;
     margin: 0 auto;
 }
 
