@@ -48,7 +48,7 @@ h4{
 
 .titleBackground{
     background-color: #000;
-    background-image: url("/WebsiteClone/images/header.png");
+    background-image: url("/images/header.png");
     background-position: center center;
     background-repeat: no-repeat;
     height: 320px;
@@ -79,7 +79,7 @@ h4{
     position: relative;
     top: 196px;
     left: 0;
-    background-image: url("/WebsiteClone/images/header_bar.png");
+    background-image: url("/images/header_bar.png");
     background-position: center center;
     background-repeat: repeat-x;
     min-width: 1180px;
