@@ -147,7 +147,7 @@ h4{
     background-repeat: no-repeat;
     background-position: center top;
     min-width: 1180px;
-    min-height: 1280px;
+    min-height: 100%;
 }
 
 .contents{
