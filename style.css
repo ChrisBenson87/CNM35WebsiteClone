@@ -123,6 +123,24 @@ h4{
     margin-top: 2px;
 }
 
+.navSearch{
+    width: 250px;
+    position: absolute;
+    word-break: break-all;
+    top: 6px;
+    right: 0;
+}
+
+.enchanced{
+    position: relative;
+    font-size: 13px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 4px;
+    margin-left: 0;
+}
+
+
 .contentBody{
     background-color: #000;
     background-image: url("/WebsiteClone/images/bg_1.png");
